@@ -1,0 +1,56 @@
+*{
+    font-size: 95%;
+    box-sizing: border-box;
+}
+#container{
+    text-align: center;
+}
+.herotext{
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+.searchInput{
+    width: 400px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 4px;
+    outline: none;
+}
+.search-btn{
+    width: 50px;
+    height: 30px;
+    background-color: #ff0000;
+    border: none;
+    color: white;
+}
+.info{
+    color: gray;
+    padding-top: 15px;
+    font-size: 1.3em;
+}
+#imagecontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 25px;
+}
+.result-item{
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.nav-btn{
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: #ff0000;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.photographer-name{
+    text-decoration: none;
+    
+}
