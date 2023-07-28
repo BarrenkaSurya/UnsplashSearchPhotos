@@ -5,6 +5,12 @@
 #container{
     text-align: center;
 }
+
+.card{
+   text-align: center;
+}
+
+
 .herotext{
     font-size: 3em;
     margin-bottom: 15px;
@@ -53,4 +59,13 @@
 .photographer-name{
     text-decoration: none;
     
+}
+
+.photographer-name a{
+    color: black;
+    text-decoration: none;
+}
+
+.hidden{
+    display: none;
 }
